@@ -14,3 +14,9 @@ In ```Src/CLTraceAgent/CLEventManager.cpp```, change line 237 to "return nullEve
 $ chmod +x build_rcp.sh
 $ ./build_rcp.sh skip-hsaprofiler boostlibdir /opt/boost_1_59/lib
 ```
+
+# Use the Profiler
+From within /bin
+```shell
+$ ./rcprof --perfcounter ~/GPUProject/memset-external/main.exe --device gpu
+```
