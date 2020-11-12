@@ -234,7 +234,7 @@ CLEventPtr CLEventManager::GetCLEvent(cl_event event)
     else
     {
         CLEventPtr nullEvent;
-        return std::move(nullEvent);
+        return nullEvent;
     }
 }
 
