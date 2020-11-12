@@ -16,7 +16,9 @@ $ ./build_rcp.sh skip-hsaprofiler boostlibdir /opt/boost_1_59/lib
 ```
 
 # Use the Profiler
+[Documentation website](https://radeon-compute-profiler-rcp.readthedocs.io/en/latest/commandline.html#example-command-lines)
 From within /bin
 ```shell
 $ ./rcprof --perfcounter ~/GPUProject/memset-external/main.exe --device gpu
+$ ./rcprof --occupancy ~/GPUProject/memset-external/main.exe --device gpu
 ```
