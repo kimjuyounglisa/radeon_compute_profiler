@@ -3,7 +3,7 @@
 ```shell
 $ python Scripts/UpdateCommon.py
 ```
-
+The following changes were made to fix errors during the profiler build.  
 In ```Build/Linux/CXLInit.py```, CTRL + F for print statements and add () around the strings to be printed.
 
 In ```Common/Src/AMDTActivityLogger.cpp```, add "-Wno-cast-function-type" to line 19.
